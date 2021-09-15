@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">Tic-Tac-Toe</div>
+    <div class="container1" id="A">
+        <h1> Choose a Mode </h1>
+        <button id="cbtn">Single Player</button>
+        <button id="pbtn">Multi Player</button>
+        <h1> Choose a Symbol </h1>
+        <button id="xbtn">X</button>
+        <button id="obtn">O</button>
+        <button id="play">PLAY GAME</button>
+    </div>
+    <div class="container2 hide" id="B">
+        <div class="status" id="s1">X is next</div>
+        <div class="container3" id="C">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="container4 hide" id="X">
+            <div class="status1" id="s2">The Winner Is</div>
+            <div class="box1" id="W"></div>
+        </div>
+        <button id="reset">RESET</button>
+    </div>
+    <script src="options.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
